@@ -12,4 +12,4 @@ Estudante: Pedro Lucas
 
 # print() é o comando de saída em Python
 # Equivalente ao bloco "diga ..." do Scratch
-print('Hello Word!')
+print('Hello World!')
