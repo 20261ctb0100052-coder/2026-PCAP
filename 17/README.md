@@ -26,8 +26,8 @@ Uma sub-rotina decide quem venceu e o programa soma os pontos das 5 rodadas.
 Conceito pretendido: [B]
 ​
 Justificativa (cite arquivo e linha de cada critério):
-- O jogo funciona sim: ppt.py, linhas __ a __
-- Trabalho com texto sim: ppt.py, linha 32  (.lower().strip(), in, ==)
+- O jogo funciona sim: ppt.py, linhas 8 a 49
+- Trabalho com texto sim: ppt.py, linha 33  (.lower().strip(), in, ==)
 - Documentação e Git sim: este README + commits no GitHub
 - Extensão/originalidade: ppt.py, linha __  (o que eu criei — níveis B/A)
 ​
