@@ -7,29 +7,33 @@
 # Conceitos:
 #==============================================
 
-# importar bibliotecas e funções de arquivos (módulos)
 from random import randint
 from telas import titulo, linha
 from modulos import ler_numero
 
 def jogar_adivinhe():
-    titulo("JOGO ADIVINHE O NÚMERO")
-    print("Tente adivinhar o número que estou pensando entre 1 a 10.")
-    segredo = randint(1, 10)
-    tentativas = 0
-    acertou = False
+    titulo('JOGO ADIVINHE O NÚMERO')
+    print('Adivinhe o número que foi escolhido entre 1 e 10.')
 
-    while not acertou:
-        palpite = ler_numero("Digite seu palpite", 1, 10)
-        tentativas += 1
+    numero_secreto = randint(1, 10)
+    quantidade_tentativas = 0
 
-        if palpite < segredo:
-            print("O número secreto é maior. Tente novamente.")
-        elif palpite > segredo:
-            print("O número secreto é menor. Tente novamente.")
+    while True:
+        tentativa = ler_numero('Qual é o seu palpite?', 1, 10)
+        quantidade_tentativas += 1
+
+        if tentativa == numero_secreto:
+            break
+
+        if tentativa < numero_secreto:
+            print('O número secreto é maior. Tente novamente.')
         else:
-            acertou = True
-    else:
-        linha()
-        print(f"Parabéns! Você acertou o número secreto {segredo} em {tentativas} tentativas")
-        linha()
+            print('O número secreto é menor. Tente novamente.')
+
+    linha()
+    print(
+        f'Parabéns! Você acertou o número secreto '
+        f'{numero_secreto} em {quantidade_tentativas} tentativas.'
+    )
+
+

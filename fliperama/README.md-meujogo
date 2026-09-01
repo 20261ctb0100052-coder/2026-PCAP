@@ -1,0 +1,67 @@
+Jogo Desafio do Fliperama
+FLIPERAMA . Abre pela opcao [5] do menu.
+ Autor: [Pedro Lucas]
+A regra
+O jogador escolhe um numero de 1 a 5.
+Depois, o computador sorteia outro numero entre 1 e 5.
+Se os dois numeros forem iguais, o jogador ganha a rodada. Se forem diferentes, o jogador perde.
+A partida termina depois que o resultado for mostrado na tela.
+Como jogar
+Dentro da pasta fliperama, rode python3 main.py.
+Escolha a opcao [5] no menu.
+Digite um numero entre 1 e 5.
+Aguarde o computador sortear um numero.
+Confira se voce ganhou ou perdeu.
+O que eu reusei do projeto, e onde
+Peca
+De qual modulo
+Onde eu uso
+Para que serve ali
+titulo()
+telas.py
+meujogo.py
+mostra o titulo do jogo
+linha()
+telas.py
+meujogo.py
+organiza e separa as partes da tela
+ler_numero()
+modulos.py
+meujogo.py
+permite escolher somente numeros validos
+randint()
+random
+meujogo.py
+sorteia o numero do computador
+contagem das partidas
+placar.py
+main.py
+registra a quantidade de partidas jogadas
+
+Exemplo de execucao
+##############################################
+             FLIPERAMA DO PEDRO LUCAS
+##############################################
+
+[1] Adivinhe o Numero
+[2] Pedra-Papel-Tesoura
+[3] Par ou Impar
+[4] Jogadores
+[5] Desafio do Fliperama
+[6] Placar
+[0] Sair
+
+##############################################
+
+Digite um numero de 1 a 5: 3
+
+Voce escolheu: 3
+Computador sorteou: 3
+
+Parabens! Voce ganhou!
+
+O que ainda nao funciona
+O jogo ainda precisa ser integrado completamente ao sistema de placar para registrar automaticamente cada partida.
+Ainda preciso revisar algumas partes do main.py para garantir que todas as opcoes do menu estejam chamando os jogos corretamente.
+Tambem quero melhorar a apresentacao do resultado para deixar o jogo mais completo e organizado.
+
