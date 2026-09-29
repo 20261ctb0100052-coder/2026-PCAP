@@ -1,6 +1,6 @@
 # Disciplina: 2026-PCAP
 # Aula: 20
-# Autor: []
+# Autor: [Pedro Noimann]
 # Data: 2026.08.08
 # Conceitos: Reaproveitamento, validacao e funcoes
 

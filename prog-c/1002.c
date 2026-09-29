@@ -6,16 +6,13 @@ Pedro Noimann
 
 #include <stdio.h>
 
-int main() {
-    double raio = 0.0, area = 0.0;
+int main(){
 
-    const double PI = 3.14159;
+    double R = 0;
 
-    printf("Digite o valor do raio: ");
+    scanf("%lf", &R);
 
-    scanf("%lf", &raio);
- 
-    area = PI * (raio * raio);
+    double area = 3.14159 * R * R;
 
     printf("A=%.4lf\n", area);
 

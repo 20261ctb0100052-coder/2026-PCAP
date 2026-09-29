@@ -1,7 +1,7 @@
 O que ainda nao funciona
 Ainda preciso melhorar a organizacao do codigo e revisar alguns detalhes para evitar erros durante a execucao do projeto.
 Autoavaliacao
-Conceito que eu acho que a minha entrega vale: [C] acredito que um C representa melhor o meu trabalho neste momento, pois ainda estou aprendendo os conceitos das aulas e tenho alguns pontos que preciso melhorar. 
+Conceito que eu acho que a minha entrega vale: [B] acredito que um B representa melhor o meu trabalho neste momento, pois ainda estou aprendendo os conceitos das aulas e tenho alguns pontos que preciso melhorar. 
 Mapa do projeto: onde esta cada coisa
 O que
 Arquivo

@@ -2,9 +2,8 @@
 # ============================================================
 # ARQUIVO    : meujogo.py (pasta fliperama)
 # Disciplina : Pensamento Computacional, Algoritmos e Programacao
-#              (2026-PCAP)
+# Autor      : Pedro Noimann
 # Aula       : 23 - O jogo autoral do meu fliperama
-# Autor      : []
 # Conceitos  : Reuso de modulo proprio, funcao sem retorno,
 #              entrada validada, contagem de partidas
 # ============================================================
