@@ -1,5 +1,5 @@
 /*
-Problema 1037 BeeCrowd
+Problema 1041 BeeCrowd
 2026.09.29
 Pdro Noimann
 */
@@ -12,8 +12,8 @@ int main() {
     scanf("%f %f", &x, &y);
 
     if (x == 0 && y == 0) {
-        prin("Origem\n");
-    } else i (x == 0) {
+        printf("Origem\n");
+    } else if (x == 0) {
         printf("Eixo Y\n");
     } else if (y == 0) {
         printf("Eixo X\n");
