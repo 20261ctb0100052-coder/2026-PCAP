@@ -1,6 +1,6 @@
 /*
 * Disciplina : 2026-PCAP
-* Problema   : beecrowd 1172 - Array
+* Problema   : beecrowd 1164 - Array
 Replacente 1
 * Autor      : Pedro Noimann
 * Data       : 2026.10.06
