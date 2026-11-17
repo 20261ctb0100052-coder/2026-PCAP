@@ -1,5 +1,5 @@
 /*
- * Disciplina: 2026-PCAP
+ * Disciplina 2026-PCAP
  * Projeto  : MeuApp v4.0 - O Fliperama em C++ (Aula 32)
  * Autor    : Pedro Noimann
  * LIAC     : Menu com validacao, cadastro de jogadores em dois vectors

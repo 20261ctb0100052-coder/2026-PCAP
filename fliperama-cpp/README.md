@@ -2,7 +2,7 @@
 
 ## O que e
 [duas linhas suas: o que o programa faz e de onde ele veio]
-O programa é um fliperama onde dá para cadastrar jogadores, ver a lista e brincar de adivinhar números. Ele foi feito a partir de um projeto em C, mas agora foi passado para C++, usando vetores e arquivos para guardar os dados dos jogadores.
+O programa é um fliperama onde dá para cadastrar jogadores, ver a lista e brincar de adivinhar números. Ele foi feito a partir de um projeto em C, mas agora foi passado para C++, usando vetores e arquivos para guardar os dados dos jogadores
 
 ## Como compilar e rodar
 g++ -Wall fliperama.cpp -o fliperama
