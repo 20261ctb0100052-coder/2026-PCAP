@@ -4,7 +4,7 @@
  * Autor     : Pedro Noimann
  * LIAC      : Menu com validacao, cadastro de jogadores em fichas (classe
  *             Jogador) numa lista que cresce, e um jogo que conta as
- *             partidas de quem jogou.
+ *             partidas de quem jogou
  */
 import java.util.ArrayList;
 import java.util.Random;
